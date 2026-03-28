@@ -1,0 +1,15 @@
+<RCC>
+    <qresource>
+        <file>qtquickcontrols2.conf</file>
+        <file>UntitledProjecthhhh.qmlproject</file>
+        <file>UntitledProjecthhhh/Constants.qml</file>
+        <file>UntitledProjecthhhh/EventListModel.qml</file>
+        <file>UntitledProjecthhhh/EventListSimulator.qml</file>
+        <file>UntitledProjecthhhh/qmldir</file>
+        <file>UntitledProjecthhhhContent/App.qml</file>
+        <file>UntitledProjecthhhhContent/images/image-option_1.png</file>
+        <file>UntitledProjecthhhhContent/images/image-option_2.png</file>
+        <file>UntitledProjecthhhhContent/images/image-option_3.png</file>
+        <file>UntitledProjecthhhhContent/Screen01.ui.qml</file>
+    </qresource>
+</RCC>
