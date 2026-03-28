@@ -13,8 +13,8 @@ qt6_add_qml_module(UntitledProjecthhhhContent
         "Screen01.ui.qml"
     RESOURCES
         "images/image-option_1.png"
-        "images/image-option_3.png"
         "images/image-option_2.png"
+        "images/image-option_3.png"
 )
 
 
