@@ -1,0 +1,2 @@
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/Dependencies/Components/imports/designeffects/.qsb/shaders/opacityMask.frag.qsb: \
+  /Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/designeffects/shaders/opacityMask.frag

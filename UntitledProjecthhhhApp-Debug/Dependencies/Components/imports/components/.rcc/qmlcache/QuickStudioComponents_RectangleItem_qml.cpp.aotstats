@@ -1,0 +1,487 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 121,
+                            "functionName": "topLeftRadius",
+                            "line": 176,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 47,
+                            "functionName": "bottomLeftRadius",
+                            "line": 181,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 36,
+                            "functionName": "topRightRadius",
+                            "line": 186,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 36,
+                            "functionName": "bottomRightRadius",
+                            "line": 191,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 56,
+                            "functionName": "joinStyle",
+                            "line": 202,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 36,
+                            "functionName": "capStyle",
+                            "line": 208,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 36,
+                            "functionName": "strokeStyle",
+                            "line": 214,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 36,
+                            "functionName": "topLeftBevel",
+                            "line": 251,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 37,
+                            "functionName": "topRightBevel",
+                            "line": 258,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 35,
+                            "functionName": "bottomRightBevel",
+                            "line": 265,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 35,
+                            "functionName": "bottomLeftBevel",
+                            "line": 272,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 53,
+                            "durationMicroseconds": 75,
+                            "functionName": "__preferredRendererTypeAvailable",
+                            "line": 274,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 42,
+                            "durationMicroseconds": 153,
+                            "functionName": "__curveRendererActive",
+                            "line": 275,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 720,
+                            "functionName": "borderOffset",
+                            "line": 287,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 147,
+                            "functionName": "onRadiusChanged",
+                            "line": 313,
+                            "message": "Cannot generate efficient code for lookup of function property."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 83,
+                            "functionName": "onTopLeftRadiusChanged",
+                            "line": 314,
+                            "message": "Cannot generate efficient code for lookup of function property."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 656,
+                            "functionName": "onTopRightRadiusChanged",
+                            "line": 315,
+                            "message": "Cannot generate efficient code for lookup of function property."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 1024,
+                            "functionName": "onBottomLeftRadiusChanged",
+                            "line": 316,
+                            "message": "Cannot generate efficient code for lookup of function property."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 33,
+                            "durationMicroseconds": 117,
+                            "functionName": "onBottomRightRadiusChanged",
+                            "line": 317,
+                            "message": "Cannot generate efficient code for lookup of function property."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 90,
+                            "functionName": "onWidthChanged",
+                            "line": 318,
+                            "message": "Cannot generate efficient code for lookup of function property."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 93,
+                            "functionName": "onHeightChanged",
+                            "line": 319,
+                            "message": "Cannot generate efficient code for lookup of function property."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 5,
+                            "durationMicroseconds": 6035,
+                            "functionName": "calculateIndependentRadii",
+                            "line": 329,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 151,
+                            "functionName": "enabled",
+                            "line": 278,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 132,
+                            "functionName": "smooth",
+                            "line": 279,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 615,
+                            "functionName": "samples",
+                            "line": 280,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 38,
+                            "functionName": "fill",
+                            "line": 302,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 234,
+                            "functionName": "margins",
+                            "line": 303,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 256,
+                            "functionName": "onCompleted",
+                            "line": 321,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 58,
+                            "durationMicroseconds": 1809,
+                            "functionName": "__borderRadiusAdjustment",
+                            "line": 410,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 1244,
+                            "functionName": "capStyle",
+                            "line": 420,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 32,
+                            "functionName": "strokeStyle",
+                            "line": 421,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 23,
+                            "functionName": "joinStyle",
+                            "line": 422,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 23,
+                            "functionName": "fillGradient",
+                            "line": 426,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 17,
+                            "durationMicroseconds": 68,
+                            "functionName": "startX",
+                            "line": 428,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 17,
+                            "durationMicroseconds": 19,
+                            "functionName": "startY",
+                            "line": 429,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 477,
+                            "functionName": "x",
+                            "line": 433,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 25,
+                            "functionName": "y",
+                            "line": 434,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 46,
+                            "functionName": "x",
+                            "line": 439,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 87,
+                            "functionName": "y",
+                            "line": 440,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 74,
+                            "functionName": "radiusX",
+                            "line": 442,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 62,
+                            "functionName": "radiusY",
+                            "line": 443,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 38,
+                            "functionName": "x",
+                            "line": 448,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 73,
+                            "functionName": "y",
+                            "line": 449,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 645,
+                            "functionName": "x",
+                            "line": 454,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 67,
+                            "functionName": "y",
+                            "line": 455,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 102,
+                            "functionName": "radiusX",
+                            "line": 457,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 63,
+                            "functionName": "radiusY",
+                            "line": 458,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 59,
+                            "functionName": "x",
+                            "line": 463,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 36,
+                            "functionName": "y",
+                            "line": 464,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 18,
+                            "functionName": "x",
+                            "line": 469,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 73,
+                            "functionName": "y",
+                            "line": 470,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 63,
+                            "functionName": "radiusX",
+                            "line": 472,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 57,
+                            "functionName": "radiusY",
+                            "line": 473,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 103,
+                            "functionName": "x",
+                            "line": 478,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 229,
+                            "functionName": "y",
+                            "line": 479,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 60,
+                            "functionName": "x",
+                            "line": 484,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 20,
+                            "functionName": "y",
+                            "line": 485,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 239,
+                            "functionName": "radiusX",
+                            "line": 487,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 487,
+                            "functionName": "radiusY",
+                            "line": 488,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/RectangleItem.qml"
+                }
+            ],
+            "moduleId": "QtQuick.Studio.Components(QuickStudioComponents)"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+--bare
+-I
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/qml
+-I
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/qml
+-I
+/Users/jesicap./Qt/6.10.0/macos/qml
+--resource
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/UntitledProjecthhhh/.qt/rcc/qmake_UntitledProjecthhhh.qrc
+--resource
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/UntitledProjecthhhh/.qt/rcc/UntitledProjecthhhh_raw_qml_0.qrc
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/UntitledProjecthhhh/Constants.qml
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/UntitledProjecthhhh/EventListModel.qml
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/UntitledProjecthhhh/EventListSimulator.qml
+--json
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/UntitledProjecthhhh_qmllint.json

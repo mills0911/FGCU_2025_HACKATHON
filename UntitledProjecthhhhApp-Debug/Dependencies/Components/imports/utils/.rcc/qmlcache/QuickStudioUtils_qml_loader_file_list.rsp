@@ -1,0 +1,7 @@
+--resource
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/Dependencies/Components/imports/utils/.qt/rcc/qmake_QtQuick_Studio_Utils.qrc
+--resource
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/Dependencies/Components/imports/utils/.qt/rcc/QuickStudioUtils_raw_qml_0.qrc
+/qt-project.org/imports/QtQuick/Studio/Utils/JsonListModel.qml
+/qt-project.org/imports/QtQuick/Studio/Utils/JsonBackend.qml
+/qt-project.org/imports/QtQuick/Studio/Utils/ChildListModel.qml

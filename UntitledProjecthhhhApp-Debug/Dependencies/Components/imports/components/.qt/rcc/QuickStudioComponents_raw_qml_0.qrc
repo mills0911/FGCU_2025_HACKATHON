@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/Components/">
+    <file alias="ArcArrow.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/ArcArrow.qml</file>
+    <file alias="ArcItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/ArcItem.qml</file>
+    <file alias="BorderItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/BorderItem.qml</file>
+    <file alias="EllipseItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/EllipseItem.qml</file>
+    <file alias="FlipableItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/FlipableItem.qml</file>
+    <file alias="GroupItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/GroupItem.qml</file>
+    <file alias="PieItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/PieItem.qml</file>
+    <file alias="RectangleItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/RectangleItem.qml</file>
+    <file alias="RegularPolygonItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/RegularPolygonItem.qml</file>
+    <file alias="StarItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/StarItem.qml</file>
+    <file alias="StraightArrow.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/StraightArrow.qml</file>
+    <file alias="SvgPathItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/SvgPathItem.qml</file>
+    <file alias="TextItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/TextItem.qml</file>
+    <file alias="TriangleItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/components/TriangleItem.qml</file>
+  </qresource>
+</RCC>
+

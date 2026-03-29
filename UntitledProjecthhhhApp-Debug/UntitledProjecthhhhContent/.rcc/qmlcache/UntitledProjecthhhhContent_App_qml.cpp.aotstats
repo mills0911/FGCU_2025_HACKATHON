@@ -1,0 +1,39 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 63,
+                            "functionName": "width",
+                            "line": 5,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 27,
+                            "functionName": "height",
+                            "line": 6,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 21,
+                            "functionName": "centerIn",
+                            "line": 14,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/UntitledProjecthhhhContent/App.qml"
+                }
+            ],
+            "moduleId": "UntitledProjecthhhhContent(UntitledProjecthhhhContent)"
+        }
+    ]
+}

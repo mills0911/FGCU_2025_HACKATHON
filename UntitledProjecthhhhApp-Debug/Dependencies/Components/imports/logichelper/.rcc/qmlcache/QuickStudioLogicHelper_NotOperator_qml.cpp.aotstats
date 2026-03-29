@@ -1,0 +1,23 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 65,
+                            "functionName": "output",
+                            "line": 84,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/logichelper/NotOperator.qml"
+                }
+            ],
+            "moduleId": "QtQuick.Studio.LogicHelper(QuickStudioLogicHelper)"
+        }
+    ]
+}

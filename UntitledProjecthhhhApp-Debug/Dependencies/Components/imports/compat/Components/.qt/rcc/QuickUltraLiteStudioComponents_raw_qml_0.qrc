@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuickUltralite/Studio/Components/">
+    <file alias="ArcItem.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/compat/Components/ArcItem.qml</file>
+  </qresource>
+</RCC>
+
