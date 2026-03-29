@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/designeffects/DesignDropShadow.qml"
+                }
+            ],
+            "moduleId": "QtQuick.Studio.DesignEffects(QuickStudioDesignEffects)"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+module UntitledProjecthhhh
+linktarget UntitledProjecthhhhplugin
+optional plugin UntitledProjecthhhhplugin
+classname UntitledProjecthhhhPlugin
+typeinfo UntitledProjecthhhh.qmltypes
+prefer :/qt/qml/UntitledProjecthhhh/
+singleton Constants 1.0 Constants.qml
+EventListModel 1.0 EventListModel.qml
+EventListSimulator 1.0 EventListSimulator.qml
+

@@ -1,0 +1,9 @@
+module UntitledProjecthhhhContent
+linktarget UntitledProjecthhhhContentplugin
+optional plugin UntitledProjecthhhhContentplugin
+classname UntitledProjecthhhhContentPlugin
+typeinfo UntitledProjecthhhhContent.qmltypes
+prefer :/qt/qml/UntitledProjecthhhhContent/
+App 1.0 App.qml
+Screen01 1.0 Screen01.ui.qml
+

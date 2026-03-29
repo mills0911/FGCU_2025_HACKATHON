@@ -1,0 +1,11 @@
+-rootPath
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh
+-cmake-output
+-output-file
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/.qt/qml_imports/UntitledProjecthhhhApp_build.cmake
+-importPath
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/qml
+-importPath
+/Users/jesicap./Qt/6.10.0/macos/qml
+-qrcFiles
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/.qt/rcc/configuration.qrc

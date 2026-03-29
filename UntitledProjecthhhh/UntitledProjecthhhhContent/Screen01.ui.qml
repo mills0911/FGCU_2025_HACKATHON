@@ -16,6 +16,8 @@ Rectangle {
     id: rectangle
     width: Constants.width
     height: Constants.height
+    property alias button: button
+    state: "home"
     gradient: Gradient {
         GradientStop {
             position: 0
@@ -75,8 +77,7 @@ Rectangle {
                 font.bold: true
                 textFormat: Text.RichText
             }
-        },
-        State {
+        }        ,          State {
             name: "show_Potato"
 
             PropertyChanges {
@@ -100,6 +101,65 @@ Rectangle {
                 font.pixelSize: 31
                 font.family: "Verdana"
                 textFormat: Text.RichText
+            }
+        }
+        ,          State {
+            name: "home"
+
+            PropertyChanges {
+                target: title
+                text: "Home"
+            }
+
+            PropertyChanges {
+                target: food_options
+                visible: false
+            }
+
+            PropertyChanges {
+                target: display
+                visible: false
+            }
+
+            PropertyChanges {
+                target: text3
+                x: 1097
+                y: 8
+                visible: true
+                color: "#d72b22"
+                text: qsTr("Off")
+            }
+
+            PropertyChanges {
+                target: text2
+                visible: false
+            }
+
+            PropertyChanges {
+                target: text1
+                visible: true
+            }
+
+            PropertyChanges {
+                target: button
+                x: 488
+                y: 578
+                width: 251
+                height: 94
+                visible: true
+                text: qsTr("Start")
+                font.pointSize: 30
+            }
+
+            PropertyChanges {
+                target: button1
+                x: 488
+                y: 744
+                width: 251
+                height: 94
+                visible: true
+                text: qsTr("Close")
+                font.pointSize: 30
             }
         }
     ]
@@ -337,6 +397,47 @@ Rectangle {
         visible: false
         text: qsTr("Text")
         font.pixelSize: 12
+    }
+
+    Text {
+        id: text3
+        x: 130
+        y: 8
+        width: 108
+        height: 48
+        visible: false
+        color: "#a4ff78"
+        text: qsTr("Active")
+        font.pixelSize: 35
+    }
+
+    Button {
+        id: button
+        x: 550
+        y: 513
+        visible: false
+        text: qsTr("Button")
+
+        Connections {
+            target: button
+            function onClicked() { rectangle.state = "" }
+        }
+    }
+
+    Button {
+        id: button1
+        x: 550
+        y: 513
+        visible: false
+        text: qsTr("Button")
+    }
+
+    Image {
+        id: airfryerOutline
+        x: 514
+        y: 332
+        source: "images/airfryerOutline.png"
+        fillMode: Image.PreserveAspectFit
     }
 
 }

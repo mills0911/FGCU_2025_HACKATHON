@@ -1,0 +1,2 @@
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/Dependencies/Components/imports/designeffects/.qsb/shaders/gaussianBlur.frag.qsb: \
+  /Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/designeffects/shaders/gaussianBlur.frag

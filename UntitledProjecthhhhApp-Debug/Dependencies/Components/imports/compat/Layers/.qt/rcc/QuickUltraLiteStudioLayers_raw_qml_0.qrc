@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuickUltralite/Layers/">
+    <file alias="ApplicationScreens.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/compat/Layers/ApplicationScreens.qml</file>
+    <file alias="ImageLayer.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/compat/Layers/ImageLayer.qml</file>
+    <file alias="ItemLayer.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/compat/Layers/ItemLayer.qml</file>
+    <file alias="Screen.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/compat/Layers/Screen.qml</file>
+    <file alias="SpriteLayer.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/compat/Layers/SpriteLayer.qml</file>
+    <file alias="+DesignMode/Screen.qml">/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhh/Dependencies/Components/imports/compat/Layers/+DesignMode/Screen.qml</file>
+  </qresource>
+</RCC>
+

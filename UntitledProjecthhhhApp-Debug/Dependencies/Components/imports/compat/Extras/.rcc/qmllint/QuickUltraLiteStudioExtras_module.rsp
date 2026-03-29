@@ -1,0 +1,12 @@
+-I
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/qml
+-I
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/qml
+-I
+/Users/jesicap./Qt/6.10.0/macos/qml
+--resource
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/Dependencies/Components/imports/compat/Extras/.qt/rcc/qmake_QtQuickUltralite_Extras.qrc
+--resource
+/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/Dependencies/Components/imports/compat/Extras/.qt/rcc/QuickUltraLiteStudioExtras_raw_qml_0.qrc
+--module
+QtQuickUltralite.Extras
