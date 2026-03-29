@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"UntitledProjecthhhhContent/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "UntitledProjecthhhhContentplugin_autogen_timestamp_deps::@390616275668ae5cac0b"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "UntitledProjecthhhhContentplugin_autogen::@390616275668ae5cac0b",
+	"isGeneratorProvided" : true,
+	"name" : "UntitledProjecthhhhContentplugin_autogen",
+	"paths" : 
+	{
+		"build" : "UntitledProjecthhhhContent",
+		"source" : "UntitledProjecthhhhContent"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/UntitledProjecthhhhContent/CMakeFiles/UntitledProjecthhhhContentplugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/UntitledProjecthhhhContent/CMakeFiles/UntitledProjecthhhhContentplugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/jesicap./FGCU_2025_HACKATHON/UntitledProjecthhhhApp-Debug/UntitledProjecthhhhContent/UntitledProjecthhhhContentplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

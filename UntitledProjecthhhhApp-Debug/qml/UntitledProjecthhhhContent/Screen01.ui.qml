@@ -32,25 +32,7 @@ Rectangle {
     }
 
     states: [
-        State {
-            name: "show_Chicken"
 
-            PropertyChanges {
-                target: display
-                color: "#ffffff"
-            }
-
-            PropertyChanges {
-                target: chooseLabel
-                visible: false
-            }
-
-            PropertyChanges {
-                target: chicken_Text
-                visible: true
-                textFormat: Text.RichText
-            }
-        },
         State {
             name: "show_Fries"
 
@@ -77,9 +59,20 @@ Rectangle {
                 font.bold: true
                 textFormat: Text.RichText
             }
+
+            PropertyChanges {
+                target: airfryerOutline
+                visible: false
+            }
         },
+
         State {
-            name: "show_Potato"
+            name: "show_Chicken"
+
+            PropertyChanges {
+                target: display
+                color: "#b8cede"
+            }
 
             PropertyChanges {
                 target: chooseLabel
@@ -87,24 +80,27 @@ Rectangle {
             }
 
             PropertyChanges {
-                target: fries_Text
-                visible: false
+                target: chicken_Text
+                x: 62
+                y: 90
+                width: 460
+                height: 510
+                visible: true
+                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Andale Mono'; font-size:18pt;\">Air fry chicken at 375°F–400°F (190°C–200°C) for 10–20 minutes, depending on the cut, until the internal temperature reaches 165°F (74°C). Use oil and spices for flavor, ensuring a single layer in the basket for maximum crispiness. A popular option inlcuded tender chicken breasts or thighs, which only takes 10-12 minutes.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Andale Mono'; font-size:14pt;\"><br /></p></body></html>"
+                font.letterSpacing: 0.5
+                font.pixelSize: 80
+                lineHeight: 1.5
+                wrapMode: Text.Wrap
+                font.wordSpacing: 1
+                font.bold: false
+                textFormat: Text.RichText
             }
 
             PropertyChanges {
-                target: potato_Text
-                x: 644
-                y: 289
-                width: 423
-                height: 454
-                visible: true
-                text: "potato text goes here"
-                font.pixelSize: 31
-                font.family: "Verdana"
-                textFormat: Text.RichText
+                target: airfryerOutline
+                visible: false
             }
-        },
-        State {
+        },          State {
             name: "home"
 
             PropertyChanges {
@@ -144,7 +140,7 @@ Rectangle {
             PropertyChanges {
                 target: button
                 x: 488
-                y: 435
+                y: 578
                 width: 251
                 height: 94
                 visible: true
@@ -155,12 +151,43 @@ Rectangle {
             PropertyChanges {
                 target: button1
                 x: 488
-                y: 621
+                y: 744
                 width: 251
                 height: 94
                 visible: true
                 text: qsTr("Close")
                 font.pointSize: 30
+            }
+
+            PropertyChanges {
+                target: airfryerOutline
+                visible: true
+            }
+        }
+        ,                     State {
+            name: "show_Potato"
+
+            PropertyChanges {
+                target: chooseLabel
+                visible: false
+            }
+
+            PropertyChanges {
+                target: fries_Text
+                visible: false
+            }
+
+            PropertyChanges {
+                target: potato_Text
+                x: 644
+                y: 289
+                width: 423
+                height: 454
+                visible: true
+                text: "potato text goes here"
+                font.pixelSize: 31
+                font.family: "Verdana"
+                textFormat: Text.RichText
             }
         }
     ]
@@ -431,6 +458,15 @@ Rectangle {
         y: 513
         visible: false
         text: qsTr("Button")
+    }
+
+    Image {
+        id: airfryerOutline
+        x: 514
+        y: 332
+        visible: false
+        source: "images/airfryerOutline.png"
+        fillMode: Image.PreserveAspectFit
     }
 
 }
