@@ -8,9 +8,14 @@
         <file>UntitledProjecthhhh/qmldir</file>
         <file>UntitledProjecthhhhContent/App.qml</file>
         <file>UntitledProjecthhhhContent/images/airfryerOutline.png</file>
+        <file>UntitledProjecthhhhContent/images/airfryerOutline2.png</file>
+        <file>UntitledProjecthhhhContent/images/blackGlass.jpg</file>
+        <file>UntitledProjecthhhhContent/images/checkIcon2.gif</file>
+        <file>UntitledProjecthhhhContent/images/fryDoneCheck.gif</file>
         <file>UntitledProjecthhhhContent/images/image-option_1.png</file>
         <file>UntitledProjecthhhhContent/images/image-option_2.png</file>
         <file>UntitledProjecthhhhContent/images/image-option_3.png</file>
+        <file>UntitledProjecthhhhContent/images/playButton.jpg</file>
         <file>UntitledProjecthhhhContent/Screen01.ui.qml</file>
     </qresource>
 </RCC>

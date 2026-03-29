@@ -16,6 +16,11 @@ qt6_add_qml_module(UntitledProjecthhhhContent
         "images/image-option_2.png"
         "images/image-option_3.png"
         "images/airfryerOutline.png"
+        "images/playButton.jpg"
+        "images/blackGlass.jpg"
+        "images/airfryerOutline2.png"
+        "images/fryDoneCheck.gif"
+        "images/checkIcon2.gif"
 )
 
 
