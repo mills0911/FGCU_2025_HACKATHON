@@ -570,16 +570,6 @@ Rectangle {
             }
 
             PropertyChanges {
-                target: label
-                x: 479
-                y: 263
-                color: "#5fde49"
-                text: qsTr("Success!")
-                font.pointSize: 55
-                font.family: "Verdana"
-            }
-
-            PropertyChanges {
                 target: border1
                 x: 432
                 y: 363
@@ -672,8 +662,6 @@ Rectangle {
                 border.color: "#c25338"
                 border.width: 5
             }
-        }]
-
 
     Rectangle {
         id: header
@@ -738,8 +726,6 @@ Rectangle {
         }
     }
 
-
-
     Rectangle {
         id: display
         x: 583
@@ -800,7 +786,6 @@ Rectangle {
         }
     }
 
-
     Text {
         id: pizza_Text
         x: 716
@@ -809,7 +794,6 @@ Rectangle {
         text: qsTr("Text")
         font.pixelSize: 12
     }
-
 
     FocusScope {
         id: food_options
@@ -847,7 +831,9 @@ Rectangle {
 
                 Connections {
                     target: mouseArea1
-                    function onClicked() { rectangle.state = "show_Chicken" }
+                    function onClicked() {
+                        rectangle.state = "show_Chicken"
+                    }
                 }
             }
         }
@@ -887,7 +873,9 @@ Rectangle {
 
                 Connections {
                     target: mouseArea2
-                    function onClicked() { rectangle.state = "show_Pizza" }
+                    function onClicked() {
+                        rectangle.state = "show_Pizza"
+                    }
                 }
             }
         }
@@ -919,14 +907,13 @@ Rectangle {
 
                 Connections {
                     target: mouseArea3
-                    function onClicked() { rectangle.state = "show_Burrito" }
+                    function onClicked() {
+                        rectangle.state = "show_Burrito"
+                    }
                 }
             }
         }
-
     }
-
-
 
     Text {
         id: burrito_Text
@@ -936,7 +923,6 @@ Rectangle {
         text: qsTr("Text")
         font.pixelSize: 12
     }
-
 
     Text {
         id: text3
@@ -950,7 +936,6 @@ Rectangle {
         font.pixelSize: 35
     }
 
-
     Button {
         id: button
         x: 550
@@ -960,10 +945,11 @@ Rectangle {
 
         Connections {
             target: button
-            function onClicked() { rectangle.state = "" }
+            function onClicked() {
+                rectangle.state = ""
+            }
         }
     }
-
 
     Button {
         id: button1
@@ -972,8 +958,6 @@ Rectangle {
         visible: false
         text: qsTr("Button")
     }
-
-
 
     RoundButton {
         id: roundButton
@@ -984,10 +968,11 @@ Rectangle {
 
         Connections {
             target: roundButton
-            function onDoubleClicked() { rectangle.state = "fryingLoad" }
+            function onDoubleClicked() {
+                rectangle.state = "fryingLoad"
+            }
         }
     }
-
 
     TriangleItem {
         id: triangle
@@ -996,15 +981,12 @@ Rectangle {
         visible: false
     }
 
-
-
     BusyIndicator {
         id: busyIndicator
         x: 570
         y: 621
         visible: false
     }
-
 
     RectangleItem {
         id: rectangle1
@@ -1014,21 +996,18 @@ Rectangle {
         adjustBorderRadius: true
     }
 
-
-
-
     Timer {
         id: fryTime
     }
-
-
 
     Timeline {
         id: foodReadyBlink
         animations: [
             TimelineAnimation {
                 id: timelineAnimation
-                onFinished: { rectangle.state = "home" }
+                onFinished: {
+                    rectangle.state = "home"
+                }
                 duration: 1000
                 running: false
                 loops: 1
@@ -1066,13 +1045,6 @@ Rectangle {
         source: "qrcimages/template_image.png"
     }
 
-    Label {
-        id: label
-        x: 565
-        y: 252
-        text: qsTr("Label")
-    }
-
     BorderItem {
         id: border1
         x: 442
@@ -1083,7 +1055,9 @@ Rectangle {
 
     Connections {
         target: fryTime
-        function onTriggered() { rectangle.state = "fryingDone" }
+        function onTriggered() {
+            rectangle.state = "fryingDone"
+        }
     }
 
     Image {
@@ -1094,5 +1068,4 @@ Rectangle {
         source: "images/airfryerOutline2.png"
         fillMode: Image.PreserveAspectFit
     }
-
 }
