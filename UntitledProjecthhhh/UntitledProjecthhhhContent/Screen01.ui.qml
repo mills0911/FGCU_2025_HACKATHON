@@ -29,210 +29,67 @@ Rectangle {
         }
         orientation: Gradient.Vertical
     }
+    Text {
+        id: optionsText
+        x: 168
+        y: 63
+        width: 162
+        height: 46
+        visible: true
+        text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Script MT'; font-size:54pt; text-decoration: underline; color:#ffaa00;\">Options</span></p></body></html>"
+        font.pixelSize: 20
+        textFormat: Text.RichText
+        font.styleName: "Bold"
+        font.family: "Verdana"
+    }
+    Text {
+        id: chickenID
+        x: 187
+        y: 360
+        text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Script MT'; font-size:48pt; color:#ffaa00;\">Chicken</span></p></body></html>"
+        font.pixelSize: 24
+        textFormat: Text.RichText
+        font.family: "Verdana"
+    }
+
+    Text {
+        id: pizzaID
+        x: 183
+        y: 642
+        text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Script MT'; font-size:48pt; color:#ffaa00;\">Pizza</span></p></body></html>"
+        font.pixelSize: 24
+        textFormat: Text.RichText
+        font.family: "Verdana"
+    }
+
+    Text {
+        id: burritoID
+        x: 153
+        y: 906
+        width: 83
+        height: 33
+        text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Script MT'; font-size:48pt; color:#ffaa00;\">Burrito</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Script MT'; font-size:48pt; color:#aaaaff;\"><br /></p></body></html>"
+        font.pixelSize: 24
+        textFormat: Text.RichText
+    }
+
+    transitions: [
+        Transition {
+            from: home
+            to: ""
+            NumberAnimation {
+                properties: "x"
+                duration: 600
+            }
+        }
+    ]
+
     property alias button: button
     state: "home"
 
     states: [
 
         State {
-            name: "show_Pizza"
-
-            PropertyChanges {
-                target: chicken_Text
-                visible: false
-                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:700;\">PIZZA RECOMMENDATION </span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt; font-weight:700;\"><br /></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:23pt;\">Air fryer pizza delivers a crispy, personal-sized pizza in under 15 minutes by preheating to 400°F, pre-baking the dough for 3 minutes, then adding toppings to cook for another 6-8 minutes at 375°F-380°F. Using parchment paper or oil prevents sticking, and the method works for dough, bagels, or pita</span></p></body></html>"
-                textFormat: Text.RichText
-            }
-
-            PropertyChanges {
-                target: chooseLabel
-                visible: false
-            }
-
-            PropertyChanges {
-                target: pizza_Text
-                x: 602
-                y: 215
-                width: 499
-                height: 579
-                visible: true
-                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt;\">PIZZA RECOMMENDATION</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\t</p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:23pt;\">Air fryer pizza delivers a crispy, personal-sized pizza in under 15 minutes by preheating to 400°F, pre-baking the dough for 3 minutes, then adding toppings to cook for another 6-8 minutes at 375°F-380°F. Using parchment paper or oil prevents sticking, and the method works for dough, bagels, or pita</span></p></body></html>"
-                font.letterSpacing: 0.5
-                font.pixelSize: 23
-                horizontalAlignment: Text.AlignHCenter
-                verticalAlignment: Text.AlignVCenter
-                lineHeight: 2
-                wrapMode: Text.WordWrap
-                rightPadding: 10
-                leftPadding: 10
-                fontSizeMode: Text.VerticalFit
-                font.wordSpacing: 1
-                font.family: "Times New Roman"
-                font.bold: true
-                textFormat: Text.RichText
-            }
-
-            PropertyChanges {
-                target: display
-                x: 583
-                y: 195
-                width: 557
-                height: 619
-                color: "#b8cede"
-            }
-
-            PropertyChanges {
-                target: triangle
-                x: 1007
-                y: 850
-                visible: true
-                fillColor: "#262222"
-                rotation: -270.702
-                strokeColor: "#4fc65a"
-            }
-
-            PropertyChanges {
-                target: roundButton
-                x: 982
-                y: 841
-                width: 126
-                height: 117
-            }
-
-            PropertyChanges {
-                target: rectangle1
-                visible: false
-            }
-
-            PropertyChanges {
-                target: foodReadyBlink
-                enabled: false
-            }
-
-            PropertyChanges {
-                target: timelineAnimation
-                running: false
-            }
-
-            PropertyChanges {
-                target: timeline
-                enabled: false
-            }
-
-            PropertyChanges {
-                target: timelineAnimation1
-                running: false
-            }
-
-            PropertyChanges {
-                target: title
-                font.family: "Tahoma"
-            }
-        },
-
-        State {
-            name: "show_Chicken"
-
-            PropertyChanges {
-                target: display
-                x: 583
-                y: 195
-                width: 557
-                height: 619
-                color: "#b8cede"
-            }
-
-            PropertyChanges {
-                target: chooseLabel
-                visible: false
-            }
-
-            PropertyChanges {
-                target: chicken_Text
-                x: 8
-                y: 23
-                width: 522
-                height: 577
-                visible: true
-                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:700;\">CHICKEN RECOMMENDATION </span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt; font-weight:700;\"><br /></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:23pt;\">Air fry chicken at 375°F–400°F (190°C–200°C) for 10–20 minutes, depending on the cut, until the internal temperature reaches 165°F (74°C). Use oil and spices for flavor, ensuring a single layer in the basket for maximum crispiness. Popular, quick options include tender chicken breasts or thighs, which only take about 10–12 minutes </span></p></body></html>"
-                font.letterSpacing: 0.5
-                font.pixelSize: 23
-                horizontalAlignment: Text.AlignHCenter
-                verticalAlignment: Text.AlignVCenter
-                lineHeight: 2
-                lineHeightMode: Text.ProportionalHeight
-                wrapMode: Text.WordWrap
-                font.family: "Times New Roman"
-                font.weight: Font.Normal
-                font.styleName: "Regular"
-                font.pointSize: 93
-                rightPadding: 10
-                bottomPadding: 0
-                leftPadding: 10
-                topPadding: 0
-                fontSizeMode: Text.VerticalFit
-                font.wordSpacing: 1
-                font.bold: false
-                textFormat: Text.RichText
-            }
-
-            PropertyChanges {
-                target: roundButton
-                x: 953
-                y: 835
-                width: 147
-                height: 129
-                visible: true
-                checkable: false
-                flat: false
-            }
-
-            PropertyChanges {
-                target: triangle
-                x: 993
-                y: 850
-                visible: true
-                fillColor: "#262222"
-                strokeColor: "#4fc65a"
-                strokeWidth: 4
-                rotation: 90.589
-            }
-
-            PropertyChanges {
-                target: rectangle1
-                visible: false
-            }
-
-            PropertyChanges {
-                target: foodReadyBlink
-                enabled: false
-            }
-
-            PropertyChanges {
-                target: timelineAnimation
-                running: false
-            }
-
-            PropertyChanges {
-                target: timeline
-                enabled: false
-            }
-
-            PropertyChanges {
-                target: timelineAnimation1
-                running: false
-            }
-
-            PropertyChanges {
-                target: title
-                font.family: "Tahoma"
-            }
-
-            PropertyChanges {
-                target: border1
-                visible: false
-            }
-        },             State {
             name: "home"
 
             PropertyChanges {
@@ -330,6 +187,244 @@ Rectangle {
                 width: 284
                 height: 234
                 visible: true
+            }
+
+            PropertyChanges {
+                target: optionsText
+                visible: false
+            }
+
+            PropertyChanges {
+                target: chickenID
+                x: -313
+                visible: false
+            }
+
+            PropertyChanges {
+                target: pizzaID
+                x: -313
+                visible: false
+            }
+
+            PropertyChanges {
+                target: burritoID
+                x: -313
+                visible: false
+            }
+
+            PropertyChanges {
+                target: successLabel
+                visible: false
+            }
+        },
+
+        State {
+            name: "show_Pizza"
+
+            PropertyChanges {
+                target: chicken_Text
+                visible: false
+                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:700;\">PIZZA RECOMMENDATION </span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt; font-weight:700;\"><br /></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:23pt;\">Air fryer pizza delivers a crispy, personal-sized pizza in under 15 minutes by preheating to 400°F, pre-baking the dough for 3 minutes, then adding toppings to cook for another 6-8 minutes at 375°F-380°F. Using parchment paper or oil prevents sticking, and the method works for dough, bagels, or pita</span></p></body></html>"
+                textFormat: Text.RichText
+            }
+
+            PropertyChanges {
+                target: chooseLabel
+                visible: false
+            }
+
+            PropertyChanges {
+                target: pizza_Text
+                x: 602
+                y: 215
+                width: 499
+                height: 579
+                visible: true
+                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.AppleSystemUIFont'; font-size:14pt;\">PIZZA RECOMMENDATION</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.AppleSystemUIFont'; font-size:14pt;\">\t</span></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.AppleSystemUIFont'; font-size:14pt;\">Air fryer pizza delivers a crispy, personal-sized pizza in under 15 minutes by preheating to 400°F, pre-baking the dough for 3 minutes, then adding toppings to cook for another 6-8 minutes at 375°F-380°F. Using parchment paper or oil prevents sticking, and the method works for dough, bagels, or pita</span></p></body></html>"
+                font.letterSpacing: 0.5
+                font.pixelSize: 15
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                lineHeight: 2
+                wrapMode: Text.WordWrap
+                rightPadding: 10
+                leftPadding: 10
+                fontSizeMode: Text.VerticalFit
+                font.wordSpacing: 1
+                font.family: "Times New Roman"
+                font.bold: true
+                textFormat: Text.RichText
+            }
+
+            PropertyChanges {
+                target: display
+                x: 583
+                y: 195
+                width: 557
+                height: 619
+                color: "#b8cede"
+            }
+
+            PropertyChanges {
+                target: triangle
+                x: 1007
+                y: 850
+                visible: true
+                fillColor: "#262222"
+                rotation: -270.702
+                strokeColor: "#4fc65a"
+            }
+
+            PropertyChanges {
+                target: roundButton
+                x: 982
+                y: 841
+                width: 126
+                height: 117
+            }
+
+            PropertyChanges {
+                target: rectangle1
+                visible: false
+            }
+
+            PropertyChanges {
+                target: foodReadyBlink
+                enabled: false
+            }
+
+            PropertyChanges {
+                target: timelineAnimation
+                running: false
+            }
+
+            PropertyChanges {
+                target: timeline
+                enabled: false
+            }
+
+            PropertyChanges {
+                target: timelineAnimation1
+                running: false
+            }
+
+            PropertyChanges {
+                target: title
+                font.family: "Tahoma"
+            }
+
+            PropertyChanges {
+                target: successLabel
+                visible: false
+            }
+        },
+
+        State {
+            name: "show_Chicken"
+
+            PropertyChanges {
+                target: display
+                x: 583
+                y: 195
+                width: 557
+                height: 619
+                color: "#b8cede"
+            }
+
+            PropertyChanges {
+                target: chooseLabel
+                visible: false
+            }
+
+            PropertyChanges {
+                target: chicken_Text
+                x: 8
+                y: 23
+                width: 522
+                height: 577
+                visible: true
+                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.AppleSystemUIFont'; font-size:14pt; font-weight:700;\">CHICKEN RECOMMENDATION </span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont'; font-size:14pt; font-weight:700;\"><br /></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.AppleSystemUIFont'; font-size:14pt;\">Air fry chicken at 375°F–400°F (190°C–200°C) for 10–20 minutes, depending on the cut, until the internal temperature reaches 165°F (74°C). Use oil and spices for flavor, ensuring a single layer in the basket for maximum crispiness. Popular, quick options include tender chicken breasts or thighs, which only take about 10–12 minutes </span></p></body></html>"
+                font.letterSpacing: 0.5
+                font.pixelSize: 21
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                lineHeight: 2
+                lineHeightMode: Text.ProportionalHeight
+                wrapMode: Text.WordWrap
+                font.family: "Times New Roman"
+                font.weight: Font.Normal
+                font.styleName: "Regular"
+                font.pointSize: 93
+                rightPadding: 10
+                bottomPadding: 0
+                leftPadding: 10
+                topPadding: 0
+                fontSizeMode: Text.VerticalFit
+                font.wordSpacing: 1
+                font.bold: false
+                textFormat: Text.RichText
+            }
+
+            PropertyChanges {
+                target: roundButton
+                x: 953
+                y: 835
+                width: 147
+                height: 129
+                visible: true
+                checkable: false
+                flat: false
+            }
+
+            PropertyChanges {
+                target: triangle
+                x: 993
+                y: 850
+                visible: true
+                fillColor: "#262222"
+                strokeColor: "#4fc65a"
+                strokeWidth: 4
+                rotation: 90.589
+            }
+
+            PropertyChanges {
+                target: rectangle1
+                visible: false
+            }
+
+            PropertyChanges {
+                target: foodReadyBlink
+                enabled: false
+            }
+
+            PropertyChanges {
+                target: timelineAnimation
+                running: false
+            }
+
+            PropertyChanges {
+                target: timeline
+                enabled: false
+            }
+
+            PropertyChanges {
+                target: timelineAnimation1
+                running: false
+            }
+
+            PropertyChanges {
+                target: title
+                font.family: "Tahoma"
+            }
+
+            PropertyChanges {
+                target: border1
+                visible: false
+            }
+
+            PropertyChanges {
+                target: successLabel
+                visible: false
             }
         },
 
@@ -446,6 +541,31 @@ Rectangle {
 
             PropertyChanges {
                 target: border1
+                visible: false
+            }
+
+            PropertyChanges {
+                target: optionsText
+                visible: false
+            }
+
+            PropertyChanges {
+                target: chickenID
+                visible: false
+            }
+
+            PropertyChanges {
+                target: pizzaID
+                visible: false
+            }
+
+            PropertyChanges {
+                target: burritoID
+                visible: false
+            }
+
+            PropertyChanges {
+                target: successLabel
                 visible: false
             }
         },
@@ -580,6 +700,36 @@ Rectangle {
                 strokeWidth: 18
                 strokeColor: "#164520"
             }
+
+            PropertyChanges {
+                target: optionsText
+                visible: false
+            }
+
+            PropertyChanges {
+                target: chickenID
+                visible: false
+            }
+
+            PropertyChanges {
+                target: pizzaID
+                visible: false
+            }
+
+            PropertyChanges {
+                target: burritoID
+                visible: false
+            }
+
+            PropertyChanges {
+                target: successLabel
+                x: 529
+                y: 312
+                color: "#2ba534"
+                text: qsTr("Success!")
+                font.family: "Verdana"
+                font.pointSize: 28
+            }
         },
 
         State {
@@ -602,7 +752,7 @@ Rectangle {
                 width: 509
                 height: 576
                 visible: true
-                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt;\">BURRITO RECOMMENDATION</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt;\"><br /></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:23pt;\">Air fry burritos at 350°F - 400°F(175°C–200°C) for 10–15 minutes, placed seam-side down, to achieve a crispy exterior. Frozen burritos typically take 12–15 minutes at 400 °F, while fresh or refrigerated burritos need roughly 8–10 minutes at 400 °F. Spray with oil for extra crispiness </span></p></body></html>"
+                text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.AppleSystemUIFont'; font-size:14pt;\">BURRITO RECOMMENDATION</span></p>\n<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont'; font-size:14pt;\"><br /></p>\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'.AppleSystemUIFont'; font-size:14pt;\">Air fry burritos at 350°F - 400°F(175°C–200°C) for 10–15 minutes, placed seam-side down, to achieve a crispy exterior. Frozen burritos typically take 12–15 minutes at 400 °F, while fresh or refrigerated burritos need roughly 8–10 minutes at 400 °F. Spray with oil for extra crispiness </span></p></body></html>"
                 font.letterSpacing: 0.5
                 font.pixelSize: 23
                 horizontalAlignment: Text.AlignHCenter
@@ -662,6 +812,13 @@ Rectangle {
                 border.color: "#c25338"
                 border.width: 5
             }
+
+            PropertyChanges {
+                target: successLabel
+                visible: false
+            }
+        }
+    ]
 
     Rectangle {
         id: header
@@ -1067,5 +1224,13 @@ Rectangle {
         visible: false
         source: "images/airfryerOutline2.png"
         fillMode: Image.PreserveAspectFit
+    }
+
+    Label {
+        id: successLabel
+        x: 575
+        y: 289
+        visible: false
+        text: qsTr("Label")
     }
 }
